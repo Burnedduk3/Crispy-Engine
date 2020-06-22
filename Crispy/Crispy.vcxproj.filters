@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\Crispy\Core.h" />
+    <ClInclude Include="src\Crispy\Application.h" />
+    <ClInclude Include="src\Crispy.h" />
+    <ClInclude Include="src\Crispy\EntryPoint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Crispy\Application.cpp" />
+  </ItemGroup>
+</Project>
