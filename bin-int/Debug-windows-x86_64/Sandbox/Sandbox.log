@@ -1,0 +1,6 @@
+﻿  SandboxApp.cpp
+H:\Brilliant Empress\Crispy\Crispy\src\Crispy\Log.h(15,54): warning C4251: 'Crispy::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Crispy::Log'
+H:\Brilliant Empress\Crispy\Crispy\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+H:\Brilliant Empress\Crispy\Crispy\src\Crispy\Log.h(16,56): warning C4251: 'Crispy::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Crispy::Log'
+H:\Brilliant Empress\Crispy\Crispy\vendor\spdlog\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Sandbox.vcxproj -> H:\Brilliant Empress\Crispy\Sandbox\..\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe

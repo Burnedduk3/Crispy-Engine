@@ -1,12 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="src\Crispy\Core.h" />
-    <ClInclude Include="src\Crispy\Application.h" />
-    <ClInclude Include="src\Crispy.h" />
-    <ClInclude Include="src\Crispy\EntryPoint.h" />
+    <Filter Include="Crispy">
+      <UniqueIdentifier>{3F1C73AC-2BBE-9D82-1479-B1D600BA24D3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Crispy\Application.cpp" />
+    <ClInclude Include="src\Crispy.h" />
+    <ClInclude Include="src\Crispy\Application.h">
+      <Filter>Crispy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Crispy\Core.h">
+      <Filter>Crispy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Crispy\EntryPoint.h">
+      <Filter>Crispy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Crispy\Log.h">
+      <Filter>Crispy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Crispy\Application.cpp">
+      <Filter>Crispy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Crispy\Log.cpp">
+      <Filter>Crispy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

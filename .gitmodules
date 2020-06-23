@@ -1,0 +1,3 @@
+[submodule "Crispy/vendor/spdlog"]
+	path = Crispy/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
